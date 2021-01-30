@@ -3,7 +3,7 @@ body {
 }
 header,
 footer {
-	background-color: blue;
+	background-color: rgb(2, 2, 22);
 	color: #fff;
 	padding: 10px;
 }

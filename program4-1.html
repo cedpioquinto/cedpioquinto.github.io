@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Week 4: Add Two Numbers</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Week 4: Add Two Numbers</h1>
+      <h2>Cedric Pioquinto</h2>
+    </header>
+    <main>
+      <h3>Add Two Numbers</h3>
+      <label>Enter Number One: <input type="number" id="number1"></label>
+      <label>Enter Number Two: <input type="number" id="number2"></label>
+      <label><button onclick="addNumbers()">Add Numbers</button></label>
+      <hr />
+      <p><span id="output"></span></p>
+      
+    </main>
+    <footer>
+      &copy;2021 &bull; Cedric Pioquinto &bull; BYU-Idaho &bull; CIT 160
+    </footer>
+    
+      <script>
+        function addNumbers() {
+        //INPUT - enter number on text field
+        num1 = parseFloat(document.getElementById('number1').value);
+        num2 = parseFloat(document.getElementById('number2').value);
+        //PROCESSING
+        let output = (number1 + number2);
+        //OUTPUT - total sum of two numbers
+        document.getElementById('output').innerHTML = output;
+      }
+      
+        </script> 
+  
+
+
+    
+    
+  </body>
+
+</html>
