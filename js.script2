@@ -1,0 +1,6 @@
+function poundsToKilograms() {
+// Input
+const pay_rate= (15/hour)
+const overtime_pay= (22.50)
+const tax_rate= %15
+
