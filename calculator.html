@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8" />
+<title>Week6 Assignment: Simple Calc</title>
+<link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+<h1>Week 6: Your Math Skills</h1>
+<h2>Cedric Pioquinto</h2>
+</header>
+<main>
+<h3>Test Your Math Skills!</h3>
+<label><input type="text" id="number1" placeholder="1st num"></label>
+<select id="operator">
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+</select>
+<label><input type="text" id="number2" placeholder="2nd num"></label>
+<label>=</label>
+<label><input type="text" id="answer" placeholder="answer"></label>
+<br>
+<label><button onclick="calculator()">Check your answer</button></label>
+<hr>
+<p><span id="output"></span></p>
+</main>
+<footer>
+&copy;2021 &bull; Cedric Pioquinto &bull; BYU-Idaho &bull; CIT 160
+</footer>
+<script src="js.calculator"></script>
+</body>
+</html>
