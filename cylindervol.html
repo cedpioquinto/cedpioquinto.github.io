@@ -13,14 +13,14 @@
     <main>
       <h3>Round Cylinder Volume</h3>
       
-      <label>Enter Base Radius: <input type="number" id="radius"></label>
-      <label>Height of the Cylinder: <input type="number" id="height"></label>
+      <label>Enter Base Radius: <input type="text" id="radius"></label>
+      <label>Height of the Cylinder: <input type="text" id="height"></label>
       
       <label><button onclick="calculateVolume()">Compute</button></label>
       
       <hr/>
       <p id="output"></p>
-      <input id="out" type="number" disabled value="3.1415926535898">
+      
     </main>
     <footer>
       &copy;2021 &bull; Cedric Pioquinto &bull; BYU-Idaho &bull; CIT 160
@@ -34,16 +34,16 @@
         //INPUT--get area of the base and height of the round cylinder.
         
         function calculateVolume(){
-        let radius = parseInt(document.getElementById("radius").value);
-        let height = parseInt(document.getElementById("height").value);
+        let radius = parseFloat(document.getElementById("radius").value);
+        let height = parseFloat(document.getElementById("height").value);
 
          
 
         //PROCESSING: calculate the volume of the cyclinder = pi(3.14) * base radius * height.
-	      out.value = Math.PI*radius*radius*height;
+	      let volume = Math.PI*radius*radius*height; 
 }
          //OUTPUT: Displays the cylinder volume. (still working on removing the decimal point)
-        document.getElementById("output").innerHTML=  'The Volume of the Cylinder is';
+        document.getElementById("output").innerHTML=  'The Volume of the Cylinder is'; 
 
   
 
