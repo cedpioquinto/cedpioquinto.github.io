@@ -11,7 +11,7 @@ function checkAlarm() {
 
     //PROCESSING: By using compound condition will be able to determine today's schedule that will indicate if the user will sleep or get back to work.
 
-    if ( month == 0 && dayOfMonth == 1 || month == 6 && dayOfMonth == 4 || month == 11 && dayOfMonth == 4 || dayOfWeek == 0 && dayOfWeek == 6 ) {
+    if ( month == 0 && dayOfMonth == 1 || month == 6 && dayOfMonth == 4 || month == 11 && dayOfMonth == 25 || dayOfWeek == 0 && dayOfWeek == 6 ) {
         
         alarm = "Hey! You are authorized to 'Sleep in' today ";      
     }
