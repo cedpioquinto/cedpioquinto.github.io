@@ -36,11 +36,12 @@
         function calculateVolume(){
         let radius = parseFloat(document.getElementById("radius").value);
         let height = parseFloat(document.getElementById("height").value);
+        let pi = 3.14
 
          
 
         //PROCESSING: calculate the volume of the cyclinder = pi(3.14) * base radius * height.
-	      let volume = Math.PI*radius*radius*height; 
+	      let calculateVolume = pi*radius*radius*height; 
 }
          //OUTPUT: Displays the cylinder volume. (still working on removing the decimal point)
         document.getElementById("output").innerHTML=  'The Volume of the Cylinder is'; 
